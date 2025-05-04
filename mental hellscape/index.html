@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>For You</title>
+  </head>
+  <body>
+    <h1>Click the Button</h1>
+    <button id="firstpage" onclick="revealImage()">
+      <span id="buttonText">Reveal</span>
+      <span id="extraText"></span>
+    </button>
+    <button
+      id="newpage"
+      onclick="window.location.href='page2/about.html', '_blank'"
+    >
+      Next Page!
+    </button>
+    <img id="hiddenImage" src="" alt="Surprise Image" />
+    <script src="script.js"></script>
+  </body>
+</html>
